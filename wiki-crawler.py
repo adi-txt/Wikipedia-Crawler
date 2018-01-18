@@ -49,7 +49,7 @@ def continue_crawl(search_history, target_url, max_links = 25):
 start_url = "https://en.wikipedia.org/wiki/Special:Random" # leads to a random Wikipedia page
 target_url = "https://en.wikipedia.org/wiki/Language"
 article_chain = [start_url] # the list of articles crawled
-article_count = 1 # the number of articles crawled.
+article_count = 0 # the number of articles crawled.
 
 
 print("\nYour start url is: " + start_url)
