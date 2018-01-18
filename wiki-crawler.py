@@ -72,3 +72,4 @@ while continue_crawl(article_chain, target_url):
 	
 	article_count += 1 # increment the article count
 	time.sleep(2) # delay for about two seconds
+
