@@ -8,5 +8,8 @@ The program starts with a random Wikipedia article, then repeatedly finds the fi
 2) The pre-determined "maximum links" number is hit. In this case, this is specified to be 25 links.
 3) The last link opened has already been opened as part of this exercise –– ergo, the program has hit a cycle.
 
+To run the program, download the wiki-web-crawler.py file to your main user folder, and open the file in Terminal:
+
+    Python3 wiki-crawler.py
 
 This program was built as the final project for the Introduction to Python course on Udacity.
