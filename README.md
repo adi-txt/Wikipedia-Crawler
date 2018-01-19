@@ -2,7 +2,7 @@
 
 Simple Python web crawler that automates "going down the rabbit hole" on Wikipedia.
 
-The program starts with a random Wikipedia article, then repeatedly finds the first Wikipedia link in the body of the given Wikipedia url until one of three possibilities occur –– 
+The program starts with a random Wikipedia article, finds and opens the first Wikipedia link in the body of the given Wikipedia URL, then finds and opens the first Wikipedia link in the body of that URL (and so on) until one of three possibilities occur –– 
 
 1) The pre-determined "target URL" is hit. In this case, the target URL is https://en.wikipedia.org/wiki/Language.
 2) The pre-determined "maximum links" number is hit. In this case, this is specified to be 25 links.
